@@ -8,7 +8,7 @@
 
   *
 
-  * Return: Always 1 (Success)
+  * Return: Always 0 (Success)
 
   */
 
