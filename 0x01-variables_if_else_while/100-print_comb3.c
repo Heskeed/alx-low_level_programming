@@ -16,11 +16,11 @@ int main(void)
 	{
 		f_d = (c / 10 + '0');
 		l_d = (c % 10 + '0');
-												if (f_d < l_d)
+		if (f_d < l_d)
 		{
 			putchar(f_d);
 			putchar(l_d);
-													if (c != 89)
+			if (c != 89)
 			{
 				putchar(',');
 				putchar(' ');
