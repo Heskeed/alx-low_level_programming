@@ -1,19 +1,20 @@
-#include "School.h"
+#include "_putchar.h"
 
 /**
  * main - Entry point
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 
 {
-	_putchar('S');
-	_putchar('c');
-	_putchar('h');
-	_putchar('o');
-	_putchar('o');
-	_putchar('l');
+	char *sh = "_putchar";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
 	_putchar('\n');
-											return (0);
+	return (0);
 }
