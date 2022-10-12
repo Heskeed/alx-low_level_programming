@@ -18,6 +18,7 @@ int _strlen(char *s)
 	{
 		i++;
 	}
+
 	return (i);
 }
 
@@ -46,6 +47,7 @@ char *_strcpy(char *dest, char *src)
 		dest[i] = src[i];
 	}
 	dest[i] = '\0';
+
 	return (dest);
 }
 
@@ -84,5 +86,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 	_strcpy(dog->name, name);
 	_strcpy(dog->owner, owner);
 	dog->age = age;
+
 	return (dog);
 }
